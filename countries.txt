@@ -1,4 +1,6 @@
+This is a sample text for my opening reading writing and appending of files in python
 Kenya
 Uganda
 Tanzania
+
 
