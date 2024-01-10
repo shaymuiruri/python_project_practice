@@ -12,7 +12,7 @@ try:
             re.search("[A-Z]", password) and
             re.search("[0-9]", password) and
             re.search("[!@#$%^&*()-_+=<>?]", password)):
-        raise ValueError("Invalid password format")
+        raise ValueError("Invalid password format.Please note that Password should have an upper case and lower case letter, a number and a special character")
 except ValueError as e:
     print(e)
     exit()
